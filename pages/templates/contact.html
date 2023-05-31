@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>kontakt tebrex <i style="color : magenta">{{text}}</i></h1>
+<p>
+    {{lista}}
+</p>
+<ul>
+    {% for item in lista %}
+    <li>
+        {{item}}
+    </li>
+    {% endfor %}
+</ul>
+
+
+
+{% endblock %}
